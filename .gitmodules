@@ -1,0 +1,3 @@
+[submodule "libraries/gradle-submodule-library"]
+	path = libraries/gradle-submodule-library
+	url = https://github.com/carlosgarciapuerta/gradle-submodule-library

@@ -1,0 +1,8 @@
+rootProject.name = 'gradle-main-project'
+
+include 'gradle-submodule-library'
+project(':gradle-submodule-library').projectDir = file('libraries/gradle-submodule-library')
+
+rootProject.children.each {
+    it.buildFileName = "build.gradle"
+}
